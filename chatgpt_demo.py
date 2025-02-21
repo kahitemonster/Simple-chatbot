@@ -1,6 +1,6 @@
 import openai
 import gradio as gr
-openai.api_key = "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" # your token goes here
+openai.api_key = ""
 
 def get_model_reply(query, context=[]):
     # combines the new question with a previous context
